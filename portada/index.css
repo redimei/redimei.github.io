@@ -1,0 +1,106 @@
+@font-face { 
+	font-family: "LetterGothicStd";
+	src: url('Letter-Gothic-Std/LetterGothicStd.otf') format('OpenType');
+}
+body {
+	font-size:16px;
+	font-family: "LetterGothicStd", "Lucida Console", Monaco, monospace;
+	background-color: white;
+	color: black;
+}
+
+a {
+	color: black;
+	line-height: normal;
+	outline: 0 none;
+	text-decoration: none;
+}
+h1, h2 {
+	font-style: normal;
+	display: inline;
+}
+
+/* Header blanco de redimei */
+#header {
+	background-color: black;
+    color: white;
+    font-size: 0.8em;
+    height: 30px;
+    text-align: center;
+	}
+#header a {
+	color:white;
+}
+#header a:hover {
+	margin-left:3px;
+	}
+.refer{
+	margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 940px;
+	}
+.menu-header ul {
+	padding-top:9px;
+	margin:0 auto;
+	width: 940px;
+}
+.menu-header ul li {
+	float: left;
+}
+
+/*CONTAINER*/
+#container {
+	width: 940px;
+	margin: 0 auto;
+	font-size:14px;
+	line-height: 20px;
+	}
+#logo {
+	margin:0 auto;
+	width:369px;
+	height: 397px;
+}
+
+#logo img.active {
+	visibility:hidden;
+	display:inline;
+	z-index:10;
+	}
+#logo .last-active {
+		z-index:9;
+	}
+	
+#logo img {
+	display:none;
+	position: absolute;
+	}
+
+
+#titulo{
+	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 223px;
+	}
+#titulo h1 { 
+	text-indent:-2000px;
+	display:block;
+	height:0px;
+}
+#titulo h2 {
+	display: block;
+	margin-bottom: 11px;
+	letter-spacing: 1px;
+	} 
+#logo p{letter-spacing: 0.05em;}
+#follow {
+	font-weight:bold;
+	margin-top:17px !important;
+	}
+#follow img{margin-top:5px}
+#mail{letter-spacing: 0.08em;}
+
+#phone{letter-spacing: 0.05em;}

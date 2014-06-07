@@ -1,0 +1,115 @@
+/*-------TIPOGRAPHY------*/
+body {
+  font-family: abel;
+  font-size: 16px;
+}
+#nav {
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0.125em;
+}
+header {
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+}
+header h2 {
+  letter-spacing: 0.125em;
+  margin: 0 auto 1.062em auto;
+  display: block;
+  text-align: center;
+}
+header #mail,
+header #phone,
+header #map {
+  margin-bottom: 0.387em;
+  text-align: center;
+}
+header #follow {
+  margin-top: 1.2em;
+  text-align: center;
+}
+header #follow a {
+  color: #000000;
+}
+/*-------GENERAL------*/
+#nav {
+  background-color: black;
+  color: white;
+}
+#nav a {
+  color: #ffffff;
+}
+#nav a:hover {
+  margin-left: 3px;
+}
+#nav ul {
+  padding-top: 7px;
+  margin: 0 auto;
+}
+#nav ul li {
+  float: left;
+}
+figure {
+  width: 369px;
+  height: 397px;
+  margin: 0 auto;
+  display: block;
+}
+figure img {
+  display: none;
+}
+figure li.active img {
+  z-index: 10;
+  display: block;
+}
+figure img.last-active {
+  z-index: 9;
+}
+figure #behance {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: red;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+}
+header hgroup h1 {
+  text-indent: -2000px;
+  display: block;
+  height: 0px;
+}
+/*-------ESTRUCTURE------*/
+#nav {
+  width: 100%;
+  height: 10px;
+}
+#nav ul {
+  width: 940px;
+}
+header {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 960px) {
+  nav {
+    height: 10px;
+  }
+  nav ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 480px) {
+  figure {
+    width: auto;
+    height: auto;
+  }
+  figure img {
+    height: 40%;
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
